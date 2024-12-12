@@ -29,7 +29,7 @@ Arslan Vision, oyuncuların oyunda Gece Görüşü ve Termal Görüş öğelerin
 nightvision                  = { name = 'nightvision', label = 'Gece Görüş Kamerası', weight = 100, 'item', image = 'nightvision.png', unique = true, useable = true, shouldClose = true, description = 'Görüşünüzü karanlıkta bile artıran gözlük.' },
 thermalvision                = { name = 'thermalvision', label = 'Termal Görüş Kamerası', weight = 100, 'item', image = 'thermalvision.png', unique = true, useable = true, shouldClose = true, description = 'Sıcaklık kaynaklarını algılayabilen gözlük.' },
 4. Put the codes above into [qb]/qb-core/shared/items.lua.
-5. Put the images in the images folder into [qb]/qb-inventory/html/images.
+5. Place the images in the folder [qb]/qb-inventory/html/images.
 6. Add the following line to your `server.cfg` to ensure the script is started on server boot: start arslan-vision 
 
 ## Kurulum TR
@@ -40,5 +40,5 @@ thermalvision                = { name = 'thermalvision', label = 'Termal Görü�
 nightvision                  = { name = 'nightvision', label = 'Gece Görüş Kamerası', weight = 100, 'item', image = 'nightvision.png', unique = true, useable = true, shouldClose = true, description = 'Görüşünüzü karanlıkta bile artıran gözlük.' },
 thermalvision                = { name = 'thermalvision', label = 'Termal Görüş Kamerası', weight = 100, 'item', image = 'thermalvision.png', unique = true, useable = true, shouldClose = true, description = 'Sıcaklık kaynaklarını algılayabilen gözlük.' },
 4. Yukarıdaki kodları [qb]/qb-core/shared/items.lua dosyasına yerleştirin.
-5. images klasöründeki resimleri [qb]/qb-inventory/html/images içine yerleştirin.
+5. klasörün içerisindeki resimleri [qb]/qb-inventory/html/images içine yerleştirin.
 6. Script'in sunucu açılışında başlatıldığından emin olmak için `server.cfg` dosyanıza aşağıdaki satırı ekleyin: `start arslan-vision`
